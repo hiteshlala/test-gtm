@@ -28,11 +28,13 @@
           <p><a href="one.html">One</a</p>
         </div>
 
-        <div>
-            <p><input type="button" onclick="sendEvent()" value="Send DataLayer Event"></input></p>
-            <p><input type="button" onclick="sendEvent('custom.event', 'stop-page-view')" value="Set DataLayer Variable stop-page-view"></input></p>
-            <p><input type="button" onclick="toggleConsent(this)" value="Toggle Consent"></input></p>
-        </div>
+        <form onsubmit="return false">
+            <div>
+                <p><input type="button" onclick="sendEvent()" value="Send DataLayer Event"></input></p>
+                <p><input type="button" onclick="sendEvent('custom.event', 'stop-page-view')" value="Set DataLayer Variable stop-page-view"></input></p>
+                <p><input type="button" onclick="toggleConsent(this)" value="Toggle Consent"></input></p>
+            </div>
+        </form>
         
         <script src="index.js"></script>
         
