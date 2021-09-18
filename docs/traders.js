@@ -1,1 +1,0 @@
-const traders = {"Aelif":true,"Lacona":true,"Centrum":true,"Wylvale":true,"Hope Ridge":true,"Veritas":true,"Clegerick":true,"Acies":true,"Gajik Festral":true,"Lostwithiel":true,"Tringar Trading Post":true,"Veem":true};
