@@ -1,0 +1,22 @@
+const mineralList = [
+  { name: 'Aeghris', id: 202, fill: 'darkslateblue', icon: { x: 240, y: 336, dx: 48, dy: 48 } },
+  { name: 'Almhurin', id: 205, fill: 'darkturquoise', icon: { x: 240, y: 288, dx: 48, dy: 48 } },
+  { name: 'Amar Shards', fill: 'lightsteelblue', icon: { x: 240, y: 240, dx: 48, dy: 48 }},
+  { name: 'Arterium', id: 193, fill: 'gray', icon: { x: 240, y: 192, dx: 48, dy: 48 } },
+  { name: 'Claristrine', id: 199, fill: 'ghostwhite', icon: { x: 240, y: 144, dx: 48, dy: 48 } },
+  { name: 'Daera', id: 203, fill: 'sienna', icon: { x: 240, y: 96, dx: 48, dy: 48 } },
+  { name: 'Deepsilver', id: 195, fill: 'darkcyan', icon: { x: 240, y: 48, dx: 48, dy: 48 } },
+  { name: 'Earthblood', id: 194, fill: 'tomato', icon: { x: 240, y: 0, dx: 48, dy: 48 } },
+  { name: 'Elven Tears', id: 200, fill: 'skyblue', icon: { x: 192, y: 960, dx: 48, dy: 48 } },
+  { name: 'Flektrine', id: 204, fill: 'maroon', icon: { x: 192, y: 912, dx: 48, dy: 48 }},
+  { name: 'Goldstone', id: 208, fill: 'goldenrod', icon: { x: 240, y: 816, dx: 48, dy: 48 } },
+  { name: 'Iceheart', id: 210, fill: 'lightgray', icon: { x: 240, y: 768, dx: 48, dy: 48 } },
+  { name: 'Night Diamond', id: 209, fill: 'dimgray', icon: { x: 240, y: 720, dx: 48, dy: 48 } },
+  { name: 'Obsidian', id: 207, fill: 'white', icon: { x: 240, y: 672, dx: 48, dy: 48 } },
+  { name: 'Pyrestone', id: 196, fill: 'wheat', icon: { x: 240, y: 624, dx: 48, dy: 48 } },
+  { name: 'Rainbowstone', id: 198, fill: 'plum', icon: { x: 240, y: 576, dx: 48, dy: 48 } },
+  { name: 'Silversoil', id: 206, fill: 'gainsboro', icon: { x: 240, y: 528, dx: 48, dy: 48 }},
+  { name: 'Silversteel', id: 212, fill: 'silver', icon: { x: 240, y: 480, dx: 48, dy: 48 } },
+  { name: 'Svelaugh Sand', id: 201, fill: 'yellow', icon: { x: 240, y: 432, dx: 48, dy: 48 } },
+  { name: 'Trove', id: 197, fill: 'green', icon: { x: 240, y: 384, dx: 48, dy: 48 } }
+];
