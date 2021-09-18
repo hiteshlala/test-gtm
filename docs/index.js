@@ -1,10 +1,12 @@
 function sendEvent(e, v) {
-  v = v | `happy faces - ${Date.now()}`;
   e = e | 'button.click';
+  v = v | `happy faces - ${Date.now()}`;
+  const event = {
+    event: e,
+    variable: v
+  };
+  console.log(event);
   if ( dataLayer ) {
-    dataLayer.push({
-      event: e,
-      variable: v
-    });
+    dataLayer.push(event);
   }
 }
