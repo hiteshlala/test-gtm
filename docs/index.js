@@ -1,6 +1,6 @@
 function sendEvent(e, v) {
-  e = e | 'button.click';
-  v = v | `happy faces - ${Date.now()}`;
+  e = e || 'button.click';
+  v = v || `happy faces - ${Date.now()}`;
   const event = {
     event: e,
     variable: v
