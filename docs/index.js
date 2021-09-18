@@ -5,7 +5,7 @@ function sendEvent(e, v) {
     event: e,
     variable: v
   };
-  console.log(event);
+  // console.log(event);
   if ( dataLayer ) {
     dataLayer.push(event);
   }
