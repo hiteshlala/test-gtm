@@ -1,17 +1,18 @@
 function sendEvent(e, v) {
   e = e || 'button.click';
   v = v || `happy faces - ${Date.now()}`;
+  // console.log('button click', e)
   const event = {
     event: e,
     variable: v
   };
-  // console.log(event);
   if ( dataLayer ) {
     dataLayer.push(event);
   }
 }
 
 function toggleConsent() {
+  // console.log('toggleConsent');
   const cookies = document.cookie.split(';')
   .filter(f => !!f)
   .map(v => {

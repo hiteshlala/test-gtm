@@ -29,9 +29,9 @@
         </div>
 
         <div>
-            <p><button onclick="sendEvent()">Send DataLayer Event</button></p>
-            <p><button onclick="sendEvent('custom.event', 'stop-page-view')">Set DataLayer Variable stop-page-view</button></p>
-            <p><button onclick="toggleConsent()">Toggle Consent</button></p>
+            <p><input type="button" onclick="sendEvent()" value="Send DataLayer Event"></input></p>
+            <p><input type="button" onclick="sendEvent('custom.event', 'stop-page-view')" value="Set DataLayer Variable stop-page-view"></input></p>
+            <p><input type="button" onclick="toggleConsent(this)" value="Toggle Consent"></input></p>
         </div>
         
         <script src="index.js"></script>
